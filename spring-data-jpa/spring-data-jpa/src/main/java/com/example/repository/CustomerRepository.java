@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.example.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -9,3 +10,16 @@ import com.example.entities.Customer;
 public interface CustomerRepository extends JpaRepository<Customer, Long>{
 
 }
+=======
+package com.example.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.example.entities.Customer;
+
+@Repository
+public interface CustomerRepository extends JpaRepository<Customer, Long>{
+
+}
+>>>>>>> main
