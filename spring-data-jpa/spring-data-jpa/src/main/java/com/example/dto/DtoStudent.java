@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.example.dto;
 
 import lombok.AllArgsConstructor;
@@ -13,3 +14,20 @@ public class DtoStudent {
 	private String firstName;
 	private String lastName;
 }
+=======
+package com.example.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class DtoStudent {
+	private String firstName;
+	private String lastName;
+}
+>>>>>>> main

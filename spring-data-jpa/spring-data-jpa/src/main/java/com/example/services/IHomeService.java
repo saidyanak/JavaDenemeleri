@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.example.services;
 
 import java.util.List;
@@ -8,3 +9,15 @@ public interface IHomeService {
 	public DtoHome getHomeById(Long id);
 	public List<DtoHome> getAllHome();
 }
+=======
+package com.example.services;
+
+import java.util.List;
+
+import com.example.dto.DtoHome;
+
+public interface IHomeService {
+	public DtoHome getHomeById(Long id);
+	public List<DtoHome> getAllHome();
+}
+>>>>>>> main
